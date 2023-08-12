@@ -1,16 +1,30 @@
 import React from "react";
 import { Helmet } from 'react-helmet';
-import { TestDiv } from './styled';
 import { PageWrapper } from "../../App.styled";
+import {dummyProducts} from "../dummyProducts";
+import { ProductGroup, ProductGroupContainer } from './styled'
+import ProductCard  from '../../blocks/ProductCard/index'
 
 const HomePage: React.FC = () => {
     return <>
              <Helmet>
-            <title> Главная - маркет плейс </title>
-            </Helmet>
-            <TestDiv />
+                <title> Главная - маркет плейс </title>
+             </Helmet>
+
         <PageWrapper>
-            <h1>Главная страница сайта</h1>
+            <ProductGroup>
+                <h2>Рекомендуемые товары</h2>
+
+                <ProductGroupContainer>
+                    {dummyProducts.map((p) => (
+                        <ProductCard
+                        {...p}
+                        key={p.id}
+                        // isLiked={idsInFavorites.includes(p.id)}
+                        />
+                    ))}
+                </ProductGroupContainer>
+            </ProductGroup>
         </PageWrapper>
     </>
 }
