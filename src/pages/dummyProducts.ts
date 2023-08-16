@@ -1,44 +1,109 @@
-import  { I_ProductDetails } from '../pages/types';
+// import type { I_ProductDetails } from 'pages/types'
 
-export const dummyProducts: I_ProductDetails[] = [
+
+export const dummyProducts: any[] = [
     {
         id: 1,
-        slug: 'notebook-digme-eve-15c419',
-        imgSrc: 'https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196_1280.jpg',
-        priceRegular: 11295,
+        slug: 'netbook-digme-eve-15c419',
+        imgSrc: '//avatars.mds.yandex.net/get-marketcms/1534436/img-ff1fb56d-5400-4926-9bd8-6531eaa47cb0.png/optimize',
+        price: 11295,
         priceDiscounted: 10433,
         title: 'Ноутбук DIGMA EVE 15C419',
-        desc: 'Диагональ 15.6". Модель DIGMA EVE 15C419 (1920х1080, Intel Celeron 1.1 ГГц',
+        desc: 'Диагональ 15.6" Модель DIGMA EVE 15C419 (1920x1080, Intel Celeron 1.1 ГГц',
     },
 
     {
         id: 2,
-        slug: 'notebook-digme-eve-13c419',
-        imgSrc: 'https://cdn.pixabay.com/photo/2016/06/28/05/10/laptop-1483974_1280.jpg',
-        priceRegular: 10000,
-        priceDiscounted: 8000,
-        title: 'Ноутбук DIGMA EVE 13C419',
-        desc: 'Диагональ 13". Модель DIGMA EVE 13C419 (1920х1080, Intel Celeron 1.1 ГГц',
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/4509881/img_id7012582578963718904.jpeg/x248_trim',
+        price: 3000,
+        priceDiscounted: 2500,
+        title: 'Комод IKEA МАЛЬМ',
+        desc: '2 ящика , размер: 40х48 см , цвет: белый',
     },
 
     {
         id: 3,
-        slug: 'Iphone-14',
-        imgSrc: 'https://cdn.pixabay.com/photo/2014/08/05/10/30/iphone-410324_1280.jpg',
-        priceRegular: 50000,
-        priceDiscounted: 47500,
-        title: 'Iphone 14',
-        desc: 'Lorem ipsum some text ',
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/5425309/img_id6538445106787799729.jpeg/orig',
+        price: 1800,
+        title: 'Силиконовый браслет',
+        desc: 'С надписью "HUNTER". Размер взрослый',
     },
 
     {
         id: 4,
-        slug: 'Samsung-S22-ultra',
-        imgSrc: 'https://cdn.pixabay.com/photo/2016/03/27/19/43/samsung-1283938_1280.jpg',
-        priceRegular: 50000,
-        priceDiscounted: 47500,
-        title: 'Samsung S22 ultra',
-        desc: 'Samsung Galaxy S22 Ultra',
-    }
-]
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/5234762/img_id4034388492868037163.jpeg/x248_trim',
+        price: 3900,
+        title: 'Кроcсовки мужские',
+        desc: 'Размер 3028 multi (43)',
+    },
 
+    {
+        id: 5,
+        imgSrc: '//avatars.mds.yandex.net/get-marketcms/879900/img-672f7d62-1f2e-47e9-8bec-44fbba467ff2.png/optimize',
+        price: 3410,
+        priceDiscounted: 4300,
+        title: 'СОКОЛ письменный стол СТМ-16',
+        desc: '5 лет, изделие должно храниться в закрытых, сухих и теплых помещениях',
+    },
+
+    {
+        id: 6,
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/4334746/img_id6094519932765570870.png/8hq',
+        price: 6690,
+        title: 'Принтер лазерный Pantum P2516/P2518',
+        desc: 'Подходит для использования дома и в офисе',
+    },
+
+    {
+        id: 7,
+        imgSrc: '//avatars.mds.yandex.net/get-mpic/4568822/img_id8386917503734735902.png/orig',
+        price: 24580,
+        priceDiscounted: 22990,
+        title: 'Умное кольцо Oura Ring Heritage',
+        desc: 'Модель Silver US11 Set (2AD7V-OURA1801)',
+    },
+
+    {
+        id: 8,
+        imgSrc: '//avatars.mds.yandex.net/get-mpic/5222168/img_id2277855508924465030.jpeg/orig',
+        price: 8749,
+        title: 'Принтер лазерный Pantum P2500NW',
+        desc: 'Соответствующий формату A4, принтер лазерный Pantum P2500NW предназначен для малых офисов',
+    },
+
+    {
+        id: 9,
+        imgSrc: 'https://avatars.mds.yandex.net/get-marketpic/5119891/pice0802b105955ec5d6455972b10f4b5c0/x248_trim',
+        price: 300,
+        priceDiscounted: 210,
+        title: 'Бланк документа "Удостоверение"',
+        desc: 'Имеет обложку из бумвинила с использованием мягкой подложки из поролона.',
+    },
+
+    {
+        id: 10,
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/6277643/img_id7138540034553435189.jpeg/orig',
+        price: 894,
+        priceDiscounted: 759,
+        title: 'Чехол картхолдер на телефон',
+        desc: 'Для банковских кредитных карт и карточки пропуска в подарок зеленый, Cardholder на телефон, держатель для карт и визиток',
+    },
+
+    {
+        id: 11,
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/5205765/img_id5737639626021175012.jpeg/orig',
+        price: 979,
+        priceDiscounted: 890,
+        title: 'Копилка сейф',
+        desc: 'Электронная для денег с кодовым замком и купюроприемником, черный',
+    },
+
+    {
+        id: 12,
+        imgSrc: 'https://avatars.mds.yandex.net/get-mpic/5031100/img_id8130661877290276922.jpeg/orig',
+        price: 3900,
+        priceDiscounted: 3558,
+        title: 'Музыкальная система',
+        desc: 'BBK BTA607 черный-оранжевый. Категория Музыкальные центры. полная выходная мощность (RMS)35 Вт, беспроводная связь.',
+    },
+]
